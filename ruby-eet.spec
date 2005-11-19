@@ -10,11 +10,9 @@ Source0:	ftp://code-monkey.de/pub/ruby-eet/%{name}-%{version}.tar.gz
 URL:		http://code-monkey.de/projects/ruby-eet.html
 BuildRequires:	eet-devel
 BuildRequires:	rake >= 0.5.0
+BuildRequires:	rpmbuild(macros) >= 1.263
 BuildRequires:	ruby-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
-%define ruby_sitearchdir %(ruby -r rbconfig -e 'print Config::CONFIG["sitearchdir"]')
-%define ruby_sitelibdir %(ruby -r rbconfig -e 'print Config::CONFIG["sitelibdir"]')
 
 %description
 Ruby binding to the eet library.
