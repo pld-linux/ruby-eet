@@ -10,8 +10,9 @@ Source0:	ftp://code-monkey.de/pub/ruby-eet/%{name}-%{version}.tar.gz
 URL:		http://code-monkey.de/projects/ruby-eet.html
 BuildRequires:	eet-devel
 BuildRequires:	rake >= 0.5.0
-BuildRequires:	rpmbuild(macros) >= 1.263
+BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-devel
+%ruby_mod_ver_requires_eq
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
