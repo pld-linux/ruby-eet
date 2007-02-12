@@ -1,5 +1,5 @@
 Summary:	Ruby binding to the eet library
-Summary(pl.UTF-8):   Dowiązania języka Ruby do biblioteki eet
+Summary(pl.UTF-8):	Dowiązania języka Ruby do biblioteki eet
 Name:		ruby-eet
 Version:	0.1.3
 Release:	0.1
