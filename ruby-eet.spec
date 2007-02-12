@@ -1,5 +1,5 @@
 Summary:	Ruby binding to the eet library
-Summary(pl):	Dowi±zania jêzyka Ruby do biblioteki eet
+Summary(pl.UTF-8):   DowiÄ…zania jÄ™zyka Ruby do biblioteki eet
 Name:		ruby-eet
 Version:	0.1.3
 Release:	0.1
@@ -18,8 +18,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Ruby binding to the eet library.
 
-%description -l pl
-Dowi±zania jêzyka Ruby do biblioteki eet.
+%description -l pl.UTF-8
+DowiÄ…zania jÄ™zyka Ruby do biblioteki eet.
 
 %prep
 %setup -q
