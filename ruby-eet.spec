@@ -7,7 +7,7 @@ License:	Ruby's
 Group:		Development/Languages
 Source0:	ftp://code-monkey.de/pub/ruby-eet/%{name}-%{version}.tar.gz
 # Source0-md5:	480d8c44af28099ce7c671b8a58db55a
-URL:		http://code-monkey.de/projects/ruby-eet.html
+URL:		http://code-monkey.de/pages/ruby-eet
 BuildRequires:	eet-devel
 BuildRequires:	rake >= 0.5.0
 BuildRequires:	rpmbuild(macros) >= 1.277
