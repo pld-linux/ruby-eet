@@ -14,11 +14,10 @@ BuildRequires:	pkgconfig
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-devel
 BuildRequires:	ruby-rake >= 0.5.0
-%{?ruby_mod_ver_requires_eq}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		ruby_hdrdir	%(%{__ruby} -r rbconfig -e 'print Config::CONFIG["rubyhdrdir"]')
-%define		ruby_arch	%(%{__ruby} -r rbconfig -e 'print Config::CONFIG["arch"]')
+%define		ruby_hdrdir	%(%{__ruby} -r rbconfig -e 'print RbConfig::CONFIG["rubyhdrdir"]')
+%define		ruby_arch	%(%{__ruby} -r rbconfig -e 'print RbConfig::CONFIG["arch"]')
 
 %description
 Ruby binding to the EET library.
